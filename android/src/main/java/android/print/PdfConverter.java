@@ -95,7 +95,9 @@ public class PdfConverter implements Runnable {
             }
         });
         WebSettings settings = mWebView.getSettings();
-        settings.setMixedContentMode(WebSettings.MIXED_CONTENT_ALWAYS_ALLOW);
+        while (mHtmlString.contains("http://")) {
+            mHtmlString = mHtmlString.replace("http://", "https://");
+        }
         settings.setDefaultTextEncodingName("utf-8");
         mWebView.loadDataWithBaseURL(mBaseURL, mHtmlString, "text/HTML", "utf-8", null);
     }
