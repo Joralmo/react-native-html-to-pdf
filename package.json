@@ -1,20 +1,16 @@
 {
-  "name": "react-native-html-to-pdf",
-  "version": "0.8.0",
+  "name": "@siigo/react-native-html-to-pdf",
+  "version": "0.0.2",
   "scripts": {
     "start": "node_modules/react-native/packager/packager.sh"
   },
   "description": "Convert html strings to PDF documents using React Native",
-  "repository": {
-    "type": "git",
-    "url": "github:christopherdro/react-native-html-to-pdf"
-  },
   "keywords": [
     "html",
     "pdf",
     "react-native"
   ],
-  "author": "Christopher Dro <casheghian@gmail.com> (http://chris.si)",
-  "homepage": "https://github.com/christopherdro/react-native-html-to-pdf",
+  "author": "Jose Rafael Altamar Molina",
+  "homepage": "https://dev.azure.com/SiigoDevOps/Siigo/_git/Siigo.Libraries.Mobile?path=%2FReactNativeHtmlToPdf",
   "license": "MIT"
 }
